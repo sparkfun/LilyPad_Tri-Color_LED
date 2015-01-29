@@ -1,7 +1,7 @@
 SparkFun LilyPad Tri-Color LED
 ========================================
 
-![SparkFun LilyPad Tri-Color LED](URL for picture of part)
+![SparkFun LilyPad Tri-Color LED](https://cdn.sparkfun.com//assets/parts/8/7/4/08467-01.jpg)
 
 [*SparkFun LilyPad Tri-Color LED (DEV-08467)*](https://www.sparkfun.com/products/8467)
 
