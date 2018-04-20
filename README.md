@@ -5,13 +5,17 @@ SparkFun LilyPad Tri-Color LED
 
 [*SparkFun LilyPad Tri-Color LED (DEV-08467)*](https://www.sparkfun.com/products/8467)
 
- Use the Tri-Color LED board as a simple indicator, or by pulsing the red, green, and blue channels, you can create any color. 
+Use the LilyPad Tri-Color LED board as a simple indicator, or by pulsing the red, green, and blue channels, you can create any color. 
 This is a common anode design - to turn on a channel you simply need to ground one of the R/G/B pins to illuminate that channel.
 
 Repository Contents
 -------------------
+* **/Firmware** - Example code 
 * **/Hardware** - All Eagle design files (.brd, .sch)
 
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-tri-color-led-hookup-guide)** - Basic hookup guide for the LilyPad Tri-Color LED.
 
 License Information
 -------------------
