@@ -17,6 +17,10 @@ Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-tri-color-led-hookup-guide)** - Basic hookup guide for the LilyPad Tri-Color LED.
 
+Version History
+---------------
+* [v1.6](https://github.com/sparkfun/LilyPad_Tri-Color_LED/tree/v_1.6) - Initial Release 
+
 License Information
 -------------------
 The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
