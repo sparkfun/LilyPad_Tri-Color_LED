@@ -247,9 +247,12 @@
 <text x="16.5989" y="13.5382" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">RGB LED</text>
 <text x="11.6459" y="15.4432" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
 <dimension x1="3.254725" y1="4.686165625" x2="18.767075" y2="17.310234375" x3="2.56625625" y3="21.37490625" textsize="1.778" layer="47" dtype="diameter"/>
-<text x="5.08" y="-2.54" size="1.778" layer="47" font="vector">Units in MM</text>
+<text x="2.54" y="-2.54" size="1.778" layer="47" font="vector">Units in MM</text>
 <text x="11.43" y="-11.43" size="1.778" layer="51" font="vector">Dia Williams</text>
 <text x="10.16" y="-13.97" size="1.778" layer="51" font="vector">Andy England</text>
+<text x="-7.62" y="-27.94" size="1.778" layer="51" font="vector">Thin PCB - .8mm</text>
+<text x="-7.62" y="-31.75" size="1.778" layer="51" font="vector">LilyPad Purple Soldermask</text>
+<text x="4.0513" y="12.2047" size="1.016" layer="16" font="vector" ratio="15" rot="MR90">v20</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -518,6 +521,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
 </package>
 </packages>
 </library>
@@ -856,6 +874,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="3.81" rot="MR0"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="15.24" y="17.78"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="15.24" y="17.78" rot="MR0"/>
+<element name="U$4" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="-10.16" y="-15.24"/>
 </elements>
 <signals>
 <signal name="RED">
