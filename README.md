@@ -1,25 +1,28 @@
-SparkFun LilyPad Tri-Color LED
+SparkFun LilyPad RGB LED
 ========================================
 
-![SparkFun LilyPad Tri-Color LED](https://cdn.sparkfun.com//assets/parts/8/7/4/08467-01.jpg)
+![SparkFun LilyPad RGB LED](https://cdn.sparkfun.com//assets/parts/1/1/2/4/6/13735-LilyPad_Tri-Color_LED-01.jpg)
 
-[*SparkFun LilyPad Tri-Color LED (DEV-08467)*](https://www.sparkfun.com/products/8467)
+[*SparkFun LilyPad RGB LED (DEV-13735)*](https://www.sparkfun.com/products/13735)
 
-Use the LilyPad Tri-Color LED board as a simple indicator, or by pulsing the red, green, and blue channels, you can create any color. 
-This is a common anode design - to turn on a channel you simply need to ground one of the R/G/B pins to illuminate that channel.
+Use the LilyPad RGB LED board as a simple indicator, or by pulsing the red, green, and blue channels, you can create any color. 
+This is a common cathode design - to turn on a channel you simply need to connect each R/G/B pins to a power source in order to illuminate that channel.
+
+_Note: The original product name was called "LilyPad Tri-Color LED." V2.0 was renamed as the "LilyPad RGB LED."_
 
 Repository Contents
 -------------------
-* **/Firmware** - Example code 
+* **/Firmware** - Arduino example code 
 * **/Hardware** - All Eagle design files (.brd, .sch)
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-tri-color-led-hookup-guide)** - Basic hookup guide for the LilyPad Tri-Color LED.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-rgb-led-hookup-guide)** - Basic hookup guide for the LilyPad RGB LED.
 
 Version History
 ---------------
-* [v1.6](https://github.com/sparkfun/LilyPad_Tri-Color_LED/tree/v_1.6) - Initial Release 
+* [v2.0](https://github.com/sparkfun/LilyPad_Tri-Color_LED/tree/v_2.0) - v2.0, common cathode
+* [v1.6](https://github.com/sparkfun/LilyPad_Tri-Color_LED/tree/v_1.6) - Initial Release, common anode
 
 License Information
 -------------------
