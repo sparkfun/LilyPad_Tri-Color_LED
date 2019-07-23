@@ -17,6 +17,7 @@ Repository Contents
 
 Documentation
 --------------
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-rgb-led-hookup-guide)** - Basic hookup guide for the LilyPad RGB LED.
 
 Version History
